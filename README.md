@@ -6,17 +6,14 @@
 
 1. Created an `airflow/` directory with the following subfolders:
 airflow/
-│
 ├── dags/
-│   └── etl_pipeline.py
-│   └── sql_queries.py    
-│
+│   ├── etl_pipeline.py
+│   └── sql_queries.py
 ├── data/
 │   ├── log_data/
 │   └── song_data/
-│
 ├── config/
-│   └── create_tables.sql       
+│   └── create_tables.sql
 ├── docker-compose.yaml
 ├── README.md
 2. Installed **Docker Desktop** for Windows. Required for container orchestration.
