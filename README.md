@@ -5,6 +5,7 @@
 ## Setup Steps
 
 1. Created an `airflow/` directory with the following subfolders:
+
 airflow/
 ├── dags/
 │   ├── etl_pipeline.py
@@ -15,14 +16,16 @@ airflow/
 ├── config/
 │   └── create_tables.sql
 ├── docker-compose.yaml
-├── README.md
-2. Installed **Docker Desktop** for Windows. Required for container orchestration.
+└── README.md
 
-3. Downloaded the official `docker-compose.yaml` from the latest [Airflow releases] (I make some adjustment to install the psycopg2-binary)
 
-4. Ran initial Airflow setup in terminal:
+3. Installed **Docker Desktop** for Windows. Required for container orchestration.
+
+4. Downloaded the official `docker-compose.yaml` from the latest [Airflow releases] (I make some adjustment to install the psycopg2-binary)
+
+5. Ran initial Airflow setup in terminal:
 docker-compose up airflow-init
-5. Run docker-compose up to start.
+6. Run docker-compose up to start.
 
 ## DAG Workflow Overview
 The DAG, tune_stream_dag, runs hourly and performs:
