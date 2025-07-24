@@ -131,7 +131,7 @@ def load_table(query, table):
     cur.execute(f"TRUNCATE TABLE {table}") 
     cur.execute(f"""
     INSERT INTO {table} {query}
-    ON CONFLICT DO NOTHING
+    
     """)
  
     conn.commit()
