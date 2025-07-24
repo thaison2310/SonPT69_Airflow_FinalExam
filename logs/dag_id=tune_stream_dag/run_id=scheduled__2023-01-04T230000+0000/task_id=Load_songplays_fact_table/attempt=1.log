@@ -1,0 +1,43 @@
+[2025-07-24T15:15:41.797+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-04T23:00:00+00:00 [queued]>
+[2025-07-24T15:15:41.804+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-04T23:00:00+00:00 [queued]>
+[2025-07-24T15:15:41.805+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T15:15:41.816+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_songplays_fact_table> on 2023-01-04 23:00:00+00:00
+[2025-07-24T15:15:41.822+0000] {standard_task_runner.py:60} INFO - Started process 562 to run task
+[2025-07-24T15:15:41.825+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_songplays_fact_table', 'scheduled__2023-01-04T23:00:00+00:00', '--job-id', '819', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpp4tni_i9']
+[2025-07-24T15:15:41.827+0000] {standard_task_runner.py:88} INFO - Job 819: Subtask Load_songplays_fact_table
+[2025-07-24T15:15:41.882+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-04T23:00:00+00:00 [running]> on host c53547d84df1
+[2025-07-24T15:15:41.946+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_songplays_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-04T23:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-04T23:00:00+00:00'
+[2025-07-24T15:15:42.450+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_pipeline.py", line 170, in <lambda>
+    python_callable=lambda: load_table(SqlQueries.songplay_table_insert, 'songplays'),
+  File "/opt/airflow/dags/etl_pipeline.py", line 129, in load_table
+    cur.execute(f"INSERT INTO {table} {query}")
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "songplays_pkey"
+DETAIL:  Key (playid)=(0c4ee7572a079a9e42e1127b00ad48e4) already exists.
+
+[2025-07-24T15:15:42.460+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tune_stream_dag, task_id=Load_songplays_fact_table, execution_date=20230104T230000, start_date=20250724T151541, end_date=20250724T151542
+[2025-07-24T15:15:42.471+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 819 for task Load_songplays_fact_table (duplicate key value violates unique constraint "songplays_pkey"
+DETAIL:  Key (playid)=(0c4ee7572a079a9e42e1127b00ad48e4) already exists.
+; 562)
+[2025-07-24T15:15:42.520+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-24T15:15:42.543+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T17:32:20.569+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-04T23:00:00+00:00 [queued]>
+[2025-07-24T17:32:20.577+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-04T23:00:00+00:00 [queued]>
+[2025-07-24T17:32:20.577+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T17:32:20.589+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_songplays_fact_table> on 2023-01-04 23:00:00+00:00
+[2025-07-24T17:32:20.595+0000] {standard_task_runner.py:60} INFO - Started process 3294 to run task
+[2025-07-24T17:32:20.601+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_songplays_fact_table', 'scheduled__2023-01-04T23:00:00+00:00', '--job-id', '2632', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmp96q2fclu']
+[2025-07-24T17:32:20.604+0000] {standard_task_runner.py:88} INFO - Job 2632: Subtask Load_songplays_fact_table
+[2025-07-24T17:32:20.690+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-04T23:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T17:32:20.800+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_songplays_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-04T23:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-04T23:00:00+00:00'
+[2025-07-24T17:33:11.690+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T17:33:11.799+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Load_songplays_fact_table, execution_date=20230104T230000, start_date=20250724T173220, end_date=20250724T173311
+[2025-07-24T17:33:12.070+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T17:33:12.284+0000] {taskinstance.py:3280} INFO - 4 downstream tasks scheduled from follow-on schedule check

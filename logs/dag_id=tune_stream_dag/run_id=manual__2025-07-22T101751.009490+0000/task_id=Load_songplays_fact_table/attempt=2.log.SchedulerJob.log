@@ -1,0 +1,1 @@
+[2025-07-24T13:42:03.600+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: tune_stream_dag.Load_songplays_fact_table manual__2025-07-22T10:17:51.009490+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

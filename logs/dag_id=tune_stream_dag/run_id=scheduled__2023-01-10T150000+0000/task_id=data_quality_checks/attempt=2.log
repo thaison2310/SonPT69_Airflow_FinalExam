@@ -1,0 +1,28 @@
+[2025-07-24T18:18:24.189+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.data_quality_checks scheduled__2023-01-10T15:00:00+00:00 [queued]>
+[2025-07-24T18:18:24.206+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.data_quality_checks scheduled__2023-01-10T15:00:00+00:00 [queued]>
+[2025-07-24T18:18:24.208+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2025-07-24T18:18:24.229+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): data_quality_checks> on 2023-01-10 15:00:00+00:00
+[2025-07-24T18:18:24.241+0000] {standard_task_runner.py:60} INFO - Started process 7948 to run task
+[2025-07-24T18:18:24.254+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'data_quality_checks', 'scheduled__2023-01-10T15:00:00+00:00', '--job-id', '3978', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpofef2qoo']
+[2025-07-24T18:18:24.269+0000] {standard_task_runner.py:88} INFO - Job 3978: Subtask data_quality_checks
+[2025-07-24T18:18:24.423+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.data_quality_checks scheduled__2023-01-10T15:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T18:18:24.572+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='data_quality_checks' AIRFLOW_CTX_EXECUTION_DATE='2023-01-10T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-10T15:00:00+00:00'
+[2025-07-24T18:18:25.708+0000] {logging_mixin.py:188} INFO - songplays passed check: is not empty
+[2025-07-24T18:18:25.714+0000] {logging_mixin.py:188} INFO - users passed check: is not empty
+[2025-07-24T18:18:25.718+0000] {logging_mixin.py:188} INFO - songs passed check: is not empty
+[2025-07-24T18:18:25.721+0000] {logging_mixin.py:188} INFO - artists passed check: is not empty
+[2025-07-24T18:18:25.727+0000] {logging_mixin.py:188} INFO - time passed check: is not empty
+[2025-07-24T18:18:25.730+0000] {logging_mixin.py:188} INFO - songplays passed check: has no NULL playid
+[2025-07-24T18:18:25.735+0000] {logging_mixin.py:188} INFO - users passed check: has no NULL userid
+[2025-07-24T18:18:25.740+0000] {logging_mixin.py:188} INFO - songs passed check: has no NULL songid
+[2025-07-24T18:18:25.746+0000] {logging_mixin.py:188} INFO - artists passed check: has no NULL artistid
+[2025-07-24T18:18:25.750+0000] {logging_mixin.py:188} INFO - time passed check: has no NULL start_time
+[2025-07-24T18:18:25.776+0000] {logging_mixin.py:188} INFO - songplays passed check: has unique playid
+[2025-07-24T18:18:25.779+0000] {logging_mixin.py:188} INFO - users passed check: has unique userid
+[2025-07-24T18:18:25.781+0000] {logging_mixin.py:188} INFO - songs passed check: has unique songid
+[2025-07-24T18:18:25.785+0000] {logging_mixin.py:188} INFO - artists passed check: has unique artistid
+[2025-07-24T18:18:25.799+0000] {logging_mixin.py:188} INFO - time passed check: has unique start_time
+[2025-07-24T18:18:25.801+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T18:18:25.876+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=data_quality_checks, execution_date=20230110T150000, start_date=20250724T181824, end_date=20250724T181825
+[2025-07-24T18:18:26.070+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T18:18:26.169+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

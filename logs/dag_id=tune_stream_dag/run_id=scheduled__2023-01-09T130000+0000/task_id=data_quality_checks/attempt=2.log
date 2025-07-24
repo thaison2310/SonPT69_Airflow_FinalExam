@@ -1,0 +1,35 @@
+[2025-07-24T18:01:40.366+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.data_quality_checks scheduled__2023-01-09T13:00:00+00:00 [queued]>
+[2025-07-24T18:01:40.392+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.data_quality_checks scheduled__2023-01-09T13:00:00+00:00 [queued]>
+[2025-07-24T18:01:40.396+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2025-07-24T18:01:40.432+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): data_quality_checks> on 2023-01-09 13:00:00+00:00
+[2025-07-24T18:01:40.474+0000] {standard_task_runner.py:60} INFO - Started process 6641 to run task
+[2025-07-24T18:01:40.499+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'data_quality_checks', 'scheduled__2023-01-09T13:00:00+00:00', '--job-id', '3621', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmp6l_fjvhn']
+[2025-07-24T18:01:40.516+0000] {standard_task_runner.py:88} INFO - Job 3621: Subtask data_quality_checks
+[2025-07-24T18:01:40.825+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.data_quality_checks scheduled__2023-01-09T13:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T18:01:41.175+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='data_quality_checks' AIRFLOW_CTX_EXECUTION_DATE='2023-01-09T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-09T13:00:00+00:00'
+[2025-07-24T18:01:41.236+0000] {logging_mixin.py:188} INFO - songplays passed check: is not empty
+[2025-07-24T18:01:41.244+0000] {logging_mixin.py:188} INFO - users passed check: is not empty
+[2025-07-24T18:01:41.252+0000] {logging_mixin.py:188} INFO - songs passed check: is not empty
+[2025-07-24T18:01:41.255+0000] {logging_mixin.py:188} INFO - artists passed check: is not empty
+[2025-07-24T18:01:41.259+0000] {logging_mixin.py:188} INFO - time passed check: is not empty
+[2025-07-24T18:01:41.264+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_pipeline.py", line 168, in check_quality
+    cur.execute(query)
+psycopg2.errors.UndefinedColumn: column "songplay_id" does not exist
+LINE 1: SELECT COUNT(*) FROM songplays WHERE songplay_id IS NULL
+                                             ^
+
+[2025-07-24T18:01:41.323+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tune_stream_dag, task_id=data_quality_checks, execution_date=20230109T130000, start_date=20250724T180140, end_date=20250724T180141
+[2025-07-24T18:01:41.365+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 3621 for task data_quality_checks (column "songplay_id" does not exist
+LINE 1: SELECT COUNT(*) FROM songplays WHERE songplay_id IS NULL
+                                             ^
+; 6641)
+[2025-07-24T18:01:41.392+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-24T18:01:41.554+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

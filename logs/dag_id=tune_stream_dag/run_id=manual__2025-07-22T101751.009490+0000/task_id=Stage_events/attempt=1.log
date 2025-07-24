@@ -1,0 +1,30 @@
+[2025-07-22T10:18:23.068+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events manual__2025-07-22T10:17:51.009490+00:00 [queued]>
+[2025-07-22T10:18:23.083+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events manual__2025-07-22T10:17:51.009490+00:00 [queued]>
+[2025-07-22T10:18:23.085+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-22T10:18:23.112+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_events> on 2025-07-22 10:17:51.009490+00:00
+[2025-07-22T10:18:23.125+0000] {standard_task_runner.py:60} INFO - Started process 678 to run task
+[2025-07-22T10:18:23.131+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_events', 'manual__2025-07-22T10:17:51.009490+00:00', '--job-id', '178', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpa7un1ij5']
+[2025-07-22T10:18:23.137+0000] {standard_task_runner.py:88} INFO - Job 178: Subtask Stage_events
+[2025-07-22T10:18:23.264+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_events manual__2025-07-22T10:17:51.009490+00:00 [running]> on host a2a13a541787
+[2025-07-22T10:18:23.469+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_events' AIRFLOW_CTX_EXECUTION_DATE='2025-07-22T10:17:51.009490+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-22T10:17:51.009490+00:00'
+[2025-07-22T10:18:23.507+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_pipeline.py", line 77, in stage_events
+    data = json.load(f)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 457)
+[2025-07-22T10:18:23.541+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tune_stream_dag, task_id=Stage_events, execution_date=20250722T101751, start_date=20250722T101823, end_date=20250722T101823
+[2025-07-22T10:18:23.567+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 178 for task Stage_events (Extra data: line 2 column 1 (char 457); 678)
+[2025-07-22T10:18:23.588+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-22T10:18:23.638+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1036 @@
+[2025-07-22T06:11:17.086+0000] {processor.py:161} INFO - Started process (PID=1563) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:11:17.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:11:17.116+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:11:17.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:11:17.999+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:11:18.177+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:11:18.176+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:11:18.268+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:11:18.268+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:11:18.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 1.324 seconds
+[2025-07-22T06:11:48.486+0000] {processor.py:161} INFO - Started process (PID=1619) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:11:48.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:11:48.526+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:11:48.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:11:48.647+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:11:48.690+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:11:48.689+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:11:48.701+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:11:48.701+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:11:48.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.269 seconds
+[2025-07-22T06:12:20.189+0000] {processor.py:161} INFO - Started process (PID=1675) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:12:20.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:12:20.340+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:12:20.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:12:20.395+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:12:20.417+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:12:20.416+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:12:20.427+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:12:20.427+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:12:20.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.467 seconds
+[2025-07-22T06:12:55.715+0000] {processor.py:161} INFO - Started process (PID=1736) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:12:55.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:12:55.740+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:12:55.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:12:57.153+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:12:57.187+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:12:57.187+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:12:57.208+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:12:57.208+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:12:57.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 1.674 seconds
+[2025-07-22T06:13:27.419+0000] {processor.py:161} INFO - Started process (PID=1792) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:13:27.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:13:27.423+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:13:27.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:13:27.444+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:13:27.610+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:13:27.610+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:13:27.622+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:13:27.622+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:13:27.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.478 seconds
+[2025-07-22T06:13:58.074+0000] {processor.py:161} INFO - Started process (PID=1848) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:13:58.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:13:58.078+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:13:58.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:13:58.093+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:13:58.111+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:13:58.111+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:13:58.125+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:13:58.125+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:13:58.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.084 seconds
+[2025-07-22T06:14:28.286+0000] {processor.py:161} INFO - Started process (PID=1904) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:14:28.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:14:28.289+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:14:28.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:14:28.303+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:14:28.326+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:14:28.326+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:14:28.339+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:14:28.339+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:14:28.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.170 seconds
+[2025-07-22T06:14:58.937+0000] {processor.py:161} INFO - Started process (PID=1960) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:14:58.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:14:58.940+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:14:58.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:14:58.952+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:14:58.966+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:14:58.966+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:14:58.976+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:14:58.975+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:14:59.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.075 seconds
+[2025-07-22T06:15:29.161+0000] {processor.py:161} INFO - Started process (PID=2016) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:15:29.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:15:29.165+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:15:29.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:15:29.183+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:15:29.201+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:15:29.201+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:15:29.210+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:15:29.210+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:15:29.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.071 seconds
+[2025-07-22T06:15:59.341+0000] {processor.py:161} INFO - Started process (PID=2073) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:15:59.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:15:59.343+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:15:59.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:15:59.356+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:15:59.372+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:15:59.372+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:15:59.381+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:15:59.381+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:15:59.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.062 seconds
+[2025-07-22T06:16:30.171+0000] {processor.py:161} INFO - Started process (PID=2128) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:16:30.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:16:30.174+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:16:30.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:16:30.187+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:16:30.205+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:16:30.205+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:16:30.215+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:16:30.215+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:16:30.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.067 seconds
+[2025-07-22T06:17:00.390+0000] {processor.py:161} INFO - Started process (PID=2184) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:17:00.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:17:00.393+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:17:00.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:17:00.407+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:17:00.426+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:17:00.425+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:17:00.436+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:17:00.436+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:17:00.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.070 seconds
+[2025-07-22T06:17:30.495+0000] {processor.py:161} INFO - Started process (PID=2240) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:17:30.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:17:30.498+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:17:30.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:17:30.510+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:17:30.525+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:17:30.525+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:17:30.534+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:17:30.534+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:17:30.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.061 seconds
+[2025-07-22T06:18:01.431+0000] {processor.py:161} INFO - Started process (PID=2296) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:18:01.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:18:01.435+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:18:01.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:18:01.447+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:18:01.466+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:18:01.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:18:01.475+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:18:01.475+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:18:01.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.067 seconds
+[2025-07-22T06:18:32.070+0000] {processor.py:161} INFO - Started process (PID=2352) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:18:32.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:18:32.073+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:18:32.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:18:32.086+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:18:32.106+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:18:32.106+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:18:32.118+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:18:32.117+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:18:32.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.073 seconds
+[2025-07-22T06:19:02.632+0000] {processor.py:161} INFO - Started process (PID=2408) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:19:02.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:19:02.635+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:19:02.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:19:02.649+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:19:02.664+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:19:02.664+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:19:02.673+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:19:02.673+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:19:02.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.064 seconds
+[2025-07-22T06:19:33.429+0000] {processor.py:161} INFO - Started process (PID=2464) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:19:33.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:19:33.431+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:19:33.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:19:33.443+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:19:33.458+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:19:33.458+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:19:33.467+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:19:33.467+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:19:33.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.058 seconds
+[2025-07-22T06:20:04.339+0000] {processor.py:161} INFO - Started process (PID=2521) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:20:04.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:20:04.341+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:20:04.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:20:04.354+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:20:04.368+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:20:04.368+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:20:04.378+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:20:04.378+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:20:04.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.063 seconds
+[2025-07-22T06:20:35.120+0000] {processor.py:161} INFO - Started process (PID=2577) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:20:35.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:20:35.124+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:20:35.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:20:35.139+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:20:35.159+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:20:35.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:20:35.171+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:20:35.171+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:20:35.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.071 seconds
+[2025-07-22T06:21:06.154+0000] {processor.py:161} INFO - Started process (PID=2633) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:21:06.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:21:06.157+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:21:06.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:21:06.170+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:21:06.184+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:21:06.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:21:06.193+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:21:06.193+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:21:06.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.062 seconds
+[2025-07-22T06:21:36.375+0000] {processor.py:161} INFO - Started process (PID=2689) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:21:36.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:21:36.378+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:21:36.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:21:36.391+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:21:36.409+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:21:36.408+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:21:36.420+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:21:36.420+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:21:36.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.071 seconds
+[2025-07-22T06:22:06.519+0000] {processor.py:161} INFO - Started process (PID=2745) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:22:06.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:22:06.523+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:22:06.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:22:06.536+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:22:06.551+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:22:06.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:22:06.560+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:22:06.560+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:22:06.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.065 seconds
+[2025-07-22T06:22:37.580+0000] {processor.py:161} INFO - Started process (PID=2801) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:22:37.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:22:37.584+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:22:37.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:22:37.599+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:22:37.619+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:22:37.619+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:22:37.756+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:22:37.756+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:22:37.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.203 seconds
+[2025-07-22T06:23:08.719+0000] {processor.py:161} INFO - Started process (PID=2857) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:23:08.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:23:08.723+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:23:08.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:23:08.743+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:23:08.766+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:23:08.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:23:08.779+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:23:08.778+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:23:08.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.090 seconds
+[2025-07-22T06:23:39.302+0000] {processor.py:161} INFO - Started process (PID=2913) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:23:39.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:23:39.305+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:23:39.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:23:39.320+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:23:39.337+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:23:39.337+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:23:39.347+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:23:39.347+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:23:39.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.068 seconds
+[2025-07-22T06:24:09.899+0000] {processor.py:161} INFO - Started process (PID=2969) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:24:09.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:24:09.902+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:24:09.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:24:09.915+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:24:09.931+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:24:09.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:24:09.941+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:24:09.941+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:24:09.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.063 seconds
+[2025-07-22T06:24:40.075+0000] {processor.py:161} INFO - Started process (PID=3025) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:24:40.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:24:40.077+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:24:40.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:24:40.098+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:24:40.117+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:24:40.117+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:24:40.240+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:24:40.240+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:24:40.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.189 seconds
+[2025-07-22T06:25:10.853+0000] {processor.py:161} INFO - Started process (PID=3081) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:25:10.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:25:10.855+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:25:10.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:25:10.867+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:25:10.884+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:25:10.884+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:25:10.893+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:25:10.893+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:25:10.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.065 seconds
+[2025-07-22T06:25:41.497+0000] {processor.py:161} INFO - Started process (PID=3137) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:25:41.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:25:41.500+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:25:41.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:25:41.511+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:25:41.527+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:25:41.527+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:25:41.538+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:25:41.538+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:25:41.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.064 seconds
+[2025-07-22T06:26:12.364+0000] {processor.py:161} INFO - Started process (PID=3193) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:26:12.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:26:12.367+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:26:12.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:26:12.380+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:26:12.397+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:26:12.397+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:26:12.406+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:26:12.406+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:26:12.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.062 seconds
+[2025-07-22T06:26:42.965+0000] {processor.py:161} INFO - Started process (PID=3249) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:26:42.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:26:42.968+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:26:42.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:26:42.987+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:26:43.005+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:26:43.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:26:43.015+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:26:43.015+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:26:43.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.074 seconds
+[2025-07-22T06:27:13.372+0000] {processor.py:161} INFO - Started process (PID=3306) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:27:13.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:27:13.375+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:27:13.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:27:13.393+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:27:13.412+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:27:13.412+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:27:13.423+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:27:13.423+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:27:13.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.080 seconds
+[2025-07-22T06:27:44.066+0000] {processor.py:161} INFO - Started process (PID=3362) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:27:44.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:27:44.069+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:27:44.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:27:44.092+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:27:44.108+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:27:44.108+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:27:44.118+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:27:44.118+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:27:44.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.078 seconds
+[2025-07-22T06:28:14.658+0000] {processor.py:161} INFO - Started process (PID=3418) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:28:14.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:28:14.661+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:28:14.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:28:14.674+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:28:14.690+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:28:14.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:28:14.699+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:28:14.699+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:28:14.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.069 seconds
+[2025-07-22T06:28:45.037+0000] {processor.py:161} INFO - Started process (PID=3474) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:28:45.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:28:45.040+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:28:45.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:28:45.056+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:28:45.074+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:28:45.074+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:28:45.084+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:28:45.084+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:28:45.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.072 seconds
+[2025-07-22T06:29:15.388+0000] {processor.py:161} INFO - Started process (PID=3530) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:29:15.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:29:15.390+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:29:15.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:29:15.404+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:29:15.421+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:29:15.421+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:29:15.431+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:29:15.431+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:29:15.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.070 seconds
+[2025-07-22T06:29:45.896+0000] {processor.py:161} INFO - Started process (PID=3586) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:29:45.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:29:45.899+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:29:45.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:29:45.914+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:29:45.932+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:29:45.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:29:45.943+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:29:45.943+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:29:45.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.072 seconds
+[2025-07-22T06:30:16.520+0000] {processor.py:161} INFO - Started process (PID=3642) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:30:16.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:30:16.523+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:30:16.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:30:16.536+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:30:16.551+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:30:16.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:30:16.560+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:30:16.560+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:30:16.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.064 seconds
+[2025-07-22T06:30:46.932+0000] {processor.py:161} INFO - Started process (PID=3698) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:30:46.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:30:46.936+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:30:46.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:30:46.954+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:30:46.975+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:30:46.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:30:46.988+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:30:46.988+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:30:47.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.085 seconds
+[2025-07-22T06:31:17.534+0000] {processor.py:161} INFO - Started process (PID=3754) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:31:17.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:31:17.537+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:31:17.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:31:17.550+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:31:17.567+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:31:17.567+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:31:17.577+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:31:17.577+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:31:17.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.067 seconds
+[2025-07-22T06:31:48.242+0000] {processor.py:161} INFO - Started process (PID=3810) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:31:48.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:31:48.244+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:31:48.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:31:48.256+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:31:48.273+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:31:48.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:31:48.283+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:31:48.283+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:31:48.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.065 seconds
+[2025-07-22T06:32:18.786+0000] {processor.py:161} INFO - Started process (PID=3866) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:32:18.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:32:18.789+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:32:18.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:32:18.802+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:32:18.823+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:32:18.823+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:32:18.835+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:32:18.834+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:32:18.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.072 seconds
+[2025-07-22T06:32:49.371+0000] {processor.py:161} INFO - Started process (PID=3922) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:32:49.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:32:49.373+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:32:49.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:32:49.385+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:32:49.400+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:32:49.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:32:49.410+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:32:49.409+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:32:49.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.066 seconds
+[2025-07-22T06:33:19.865+0000] {processor.py:161} INFO - Started process (PID=3978) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:33:19.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:33:19.868+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:33:19.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:33:19.880+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:33:19.895+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:33:19.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:33:19.905+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:33:19.905+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:33:19.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.064 seconds
+[2025-07-22T06:33:50.597+0000] {processor.py:161} INFO - Started process (PID=4034) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:33:50.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:33:50.600+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:33:50.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:33:50.614+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:33:50.630+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:33:50.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:33:50.640+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:33:50.640+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:33:50.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.066 seconds
+[2025-07-22T06:34:21.329+0000] {processor.py:161} INFO - Started process (PID=4090) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:34:21.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:34:21.332+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:34:21.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:34:21.345+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:34:21.362+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:34:21.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:34:21.372+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:34:21.372+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:34:21.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.068 seconds
+[2025-07-22T06:34:52.070+0000] {processor.py:161} INFO - Started process (PID=4146) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:34:52.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:34:52.073+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:34:52.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:34:52.087+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:34:52.108+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:34:52.108+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:34:52.121+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:34:52.121+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:34:52.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.079 seconds
+[2025-07-22T06:35:22.493+0000] {processor.py:161} INFO - Started process (PID=4202) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:35:22.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:35:22.496+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:35:22.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:35:22.514+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:35:22.534+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:35:22.534+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:35:22.545+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:35:22.545+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:35:22.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.082 seconds
+[2025-07-22T06:35:52.989+0000] {processor.py:161} INFO - Started process (PID=4258) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:35:52.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:35:52.992+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:35:52.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:35:53.006+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:35:53.023+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:35:53.023+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:35:53.033+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:35:53.032+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:35:53.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.066 seconds
+[2025-07-22T06:36:23.714+0000] {processor.py:161} INFO - Started process (PID=4314) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:36:23.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:36:23.716+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:36:23.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:36:23.729+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:36:23.744+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:36:23.744+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:36:23.753+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:36:23.753+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:36:23.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.064 seconds
+[2025-07-22T06:36:54.260+0000] {processor.py:161} INFO - Started process (PID=4370) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:36:54.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:36:54.263+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:36:54.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:36:54.276+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:36:54.291+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:36:54.291+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:36:54.301+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:36:54.301+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:36:54.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.065 seconds
+[2025-07-22T06:37:24.691+0000] {processor.py:161} INFO - Started process (PID=4426) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:37:24.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:37:24.694+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:37:24.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:37:24.708+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:37:24.727+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:37:24.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:37:24.737+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:37:24.737+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:37:24.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.070 seconds
+[2025-07-22T06:37:55.661+0000] {processor.py:161} INFO - Started process (PID=4482) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:37:55.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:37:55.664+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:37:55.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:37:55.675+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:37:55.690+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:37:55.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:37:55.700+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:37:55.699+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:37:55.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.060 seconds
+[2025-07-22T06:38:26.137+0000] {processor.py:161} INFO - Started process (PID=4538) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:38:26.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:38:26.140+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:38:26.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:38:26.153+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:38:26.171+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:38:26.170+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:38:26.184+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:38:26.183+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:38:26.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.069 seconds
+[2025-07-22T06:38:56.577+0000] {processor.py:161} INFO - Started process (PID=4594) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:38:56.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:38:56.580+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:38:56.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:38:56.594+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:38:56.609+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:38:56.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:38:56.619+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:38:56.618+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:38:56.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.064 seconds
+[2025-07-22T06:39:27.105+0000] {processor.py:161} INFO - Started process (PID=4650) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:39:27.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:39:27.107+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:39:27.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:39:27.120+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:39:27.136+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:39:27.136+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:39:27.145+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:39:27.145+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:39:27.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.063 seconds
+[2025-07-22T06:39:57.529+0000] {processor.py:161} INFO - Started process (PID=4706) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:39:57.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:39:57.532+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:39:57.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:39:57.544+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:39:57.560+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:39:57.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:39:57.569+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:39:57.569+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:39:57.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.063 seconds
+[2025-07-22T06:40:28.047+0000] {processor.py:161} INFO - Started process (PID=4762) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:40:28.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:40:28.049+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:40:28.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:40:28.063+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:40:28.078+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:40:28.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:40:28.087+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:40:28.087+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:40:28.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.063 seconds
+[2025-07-22T06:40:58.686+0000] {processor.py:161} INFO - Started process (PID=4818) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:40:58.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:40:58.689+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:40:58.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:40:58.701+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:40:58.717+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:40:58.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:40:58.726+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:40:58.726+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:40:58.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.062 seconds
+[2025-07-22T06:41:29.377+0000] {processor.py:161} INFO - Started process (PID=4880) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:41:29.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:41:29.380+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:41:29.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:41:29.393+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:41:29.409+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:41:29.409+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:41:29.418+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:41:29.418+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:41:29.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.068 seconds
+[2025-07-22T06:41:59.966+0000] {processor.py:161} INFO - Started process (PID=4936) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T06:41:59.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T06:41:59.969+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:41:59.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:41:59.981+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T06:41:59.996+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:41:59.996+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T06:42:00.006+0000] {logging_mixin.py:188} INFO - [2025-07-22T06:42:00.006+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T06:42:00.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.070 seconds
+[2025-07-22T07:12:53.845+0000] {processor.py:161} INFO - Started process (PID=4980) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:12:53.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:12:53.860+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:12:53.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:12:54.110+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:12:54.153+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:12:54.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:12:54.179+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:12:54.178+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:12:54.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.384 seconds
+[2025-07-22T07:13:24.874+0000] {processor.py:161} INFO - Started process (PID=5036) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:13:24.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:13:24.879+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:13:24.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:13:24.900+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:13:24.928+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:13:24.927+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:13:24.947+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:13:24.946+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:13:24.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.113 seconds
+[2025-07-22T07:13:55.390+0000] {processor.py:161} INFO - Started process (PID=5092) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:13:55.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:13:55.394+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:13:55.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:13:55.417+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:13:55.444+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:13:55.443+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:13:55.458+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:13:55.458+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:13:55.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.101 seconds
+[2025-07-22T07:14:25.917+0000] {processor.py:161} INFO - Started process (PID=5148) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:14:25.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:14:25.920+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:14:25.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:14:25.934+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:14:25.953+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:14:25.953+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:14:25.964+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:14:25.964+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:14:25.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.073 seconds
+[2025-07-22T07:14:56.664+0000] {processor.py:161} INFO - Started process (PID=5210) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:14:56.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:14:56.668+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:14:56.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:14:56.680+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:14:56.696+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:14:56.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:14:56.706+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:14:56.706+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:14:56.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.063 seconds
+[2025-07-22T07:15:27.196+0000] {processor.py:161} INFO - Started process (PID=5266) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:15:27.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:15:27.200+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:15:27.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:15:27.215+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:15:27.235+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:15:27.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:15:27.247+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:15:27.247+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:15:27.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.080 seconds
+[2025-07-22T07:15:57.995+0000] {processor.py:161} INFO - Started process (PID=5322) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:15:57.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:15:58.004+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:15:58.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:15:58.037+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:15:58.087+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:15:58.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:15:58.113+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:15:58.113+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:15:58.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.159 seconds
+[2025-07-22T07:16:28.492+0000] {processor.py:161} INFO - Started process (PID=5379) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:16:28.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:16:28.499+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:16:28.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:16:28.545+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:16:28.607+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:16:28.607+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:16:28.662+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:16:28.662+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:16:28.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.250 seconds
+[2025-07-22T07:16:59.061+0000] {processor.py:161} INFO - Started process (PID=5435) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:16:59.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:16:59.069+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:16:59.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:16:59.106+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:16:59.138+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:16:59.137+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:16:59.159+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:16:59.159+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:16:59.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.148 seconds
+[2025-07-22T07:17:29.484+0000] {processor.py:161} INFO - Started process (PID=5491) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:17:29.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:17:29.487+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:17:29.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:17:29.500+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:17:29.520+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:17:29.520+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:17:29.531+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:17:29.530+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:17:29.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.074 seconds
+[2025-07-22T07:18:00.156+0000] {processor.py:161} INFO - Started process (PID=5547) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:18:00.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:18:00.160+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:18:00.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:18:00.179+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:18:00.205+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:18:00.204+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:18:00.224+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:18:00.222+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:18:00.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.115 seconds
+[2025-07-22T07:18:30.455+0000] {processor.py:161} INFO - Started process (PID=5604) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:18:30.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:18:30.460+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:18:30.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:18:30.481+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:18:30.509+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:18:30.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:18:30.530+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:18:30.529+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:18:30.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.116 seconds
+[2025-07-22T07:19:01.170+0000] {processor.py:161} INFO - Started process (PID=5659) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:19:01.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:19:01.173+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:19:01.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:19:01.190+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:19:01.213+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:19:01.212+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:19:01.224+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:19:01.224+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:19:01.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.081 seconds
+[2025-07-22T07:19:31.393+0000] {processor.py:161} INFO - Started process (PID=5715) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:19:31.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:19:31.399+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:19:31.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:19:31.422+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:19:31.450+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:19:31.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:19:31.463+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:19:31.463+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:19:31.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.098 seconds
+[2025-07-22T07:20:02.094+0000] {processor.py:161} INFO - Started process (PID=5771) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:20:02.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:20:02.099+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:20:02.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:20:02.128+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:20:02.165+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:20:02.165+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:20:02.182+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:20:02.181+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:20:02.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.116 seconds
+[2025-07-22T07:20:33.183+0000] {processor.py:161} INFO - Started process (PID=5827) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:20:33.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:20:33.187+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:20:33.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:20:33.204+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:20:33.229+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:20:33.229+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:20:33.253+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:20:33.252+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:20:33.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.107 seconds
+[2025-07-22T07:21:03.462+0000] {processor.py:161} INFO - Started process (PID=5883) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:21:03.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:21:03.470+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:21:03.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:21:03.503+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:21:03.543+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:21:03.543+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:21:03.562+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:21:03.562+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:21:03.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.155 seconds
+[2025-07-22T07:21:33.683+0000] {processor.py:161} INFO - Started process (PID=5939) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:21:33.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:21:33.686+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:21:33.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:21:33.700+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:21:33.718+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:21:33.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:21:33.728+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:21:33.728+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:21:33.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.068 seconds
+[2025-07-22T07:22:04.200+0000] {processor.py:161} INFO - Started process (PID=5995) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:22:04.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:22:04.203+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:22:04.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:22:04.225+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:22:04.245+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:22:04.245+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:22:04.261+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:22:04.261+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:22:04.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.089 seconds
+[2025-07-22T07:22:34.373+0000] {processor.py:161} INFO - Started process (PID=6051) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:22:34.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:22:34.377+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:22:34.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:22:34.393+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:22:34.417+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:22:34.417+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:22:34.435+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:22:34.434+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:22:34.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.105 seconds
+[2025-07-22T07:23:05.076+0000] {processor.py:161} INFO - Started process (PID=6107) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:23:05.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:23:05.082+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:23:05.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:23:05.099+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:23:05.122+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:23:05.121+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:23:05.132+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:23:05.132+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:23:05.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.093 seconds
+[2025-07-22T07:23:35.247+0000] {processor.py:161} INFO - Started process (PID=6163) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:23:35.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:23:35.253+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:23:35.252+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:23:35.274+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:23:35.303+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:23:35.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:23:35.315+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:23:35.315+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:23:35.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.102 seconds
+[2025-07-22T07:24:05.831+0000] {processor.py:161} INFO - Started process (PID=6219) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:24:05.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:24:05.839+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:24:05.838+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:24:05.865+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:24:05.901+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:24:05.901+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:24:05.921+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:24:05.921+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:24:05.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.126 seconds
+[2025-07-22T07:24:36.678+0000] {processor.py:161} INFO - Started process (PID=6275) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:24:36.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:24:36.684+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:24:36.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:24:36.718+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:24:36.765+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:24:36.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:24:36.786+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:24:36.785+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:24:36.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.168 seconds
+[2025-07-22T07:25:07.477+0000] {processor.py:161} INFO - Started process (PID=6331) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:25:07.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:25:07.483+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:25:07.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:25:07.520+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:25:07.557+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:25:07.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:25:07.571+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:25:07.571+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:25:07.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.159 seconds
+[2025-07-22T07:25:38.610+0000] {processor.py:161} INFO - Started process (PID=6387) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:25:38.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:25:38.619+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:25:38.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:25:38.637+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:25:38.662+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:25:38.662+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:25:38.675+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:25:38.675+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:25:38.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.100 seconds
+[2025-07-22T07:26:09.566+0000] {processor.py:161} INFO - Started process (PID=6443) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:26:09.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:26:09.572+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:26:09.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:26:09.595+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:26:09.623+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:26:09.623+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:26:09.635+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:26:09.635+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:26:09.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.099 seconds
+[2025-07-22T07:26:39.937+0000] {processor.py:161} INFO - Started process (PID=6499) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:26:39.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:26:39.940+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:26:39.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:26:39.960+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:26:39.984+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:26:39.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:26:40.005+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:26:40.004+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:26:40.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.106 seconds
+[2025-07-22T07:27:10.656+0000] {processor.py:161} INFO - Started process (PID=6555) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:27:10.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:27:10.661+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:27:10.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:27:10.680+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:27:10.701+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:27:10.700+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:27:10.719+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:27:10.719+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:27:10.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.102 seconds
+[2025-07-22T07:27:41.260+0000] {processor.py:161} INFO - Started process (PID=6611) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:27:41.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:27:41.271+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:27:41.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:27:41.306+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:27:41.341+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:27:41.340+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:27:41.355+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:27:41.354+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:27:41.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.150 seconds
+[2025-07-22T07:28:11.720+0000] {processor.py:161} INFO - Started process (PID=6667) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:28:11.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:28:11.727+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:28:11.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:28:11.747+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:28:11.775+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:28:11.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:28:11.790+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:28:11.789+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:28:11.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.106 seconds
+[2025-07-22T07:28:42.088+0000] {processor.py:161} INFO - Started process (PID=6723) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:28:42.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:28:42.093+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:28:42.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:28:42.110+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:28:42.136+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:28:42.136+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:28:42.149+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:28:42.148+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:28:42.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.089 seconds
+[2025-07-22T07:29:12.475+0000] {processor.py:161} INFO - Started process (PID=6779) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:29:12.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:29:12.481+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:29:12.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:29:12.499+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:29:12.530+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:29:12.530+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:29:12.546+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:29:12.546+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:29:12.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.106 seconds
+[2025-07-22T07:29:43.265+0000] {processor.py:161} INFO - Started process (PID=6835) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:29:43.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:29:43.272+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:29:43.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:29:43.289+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:29:43.314+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:29:43.313+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:29:43.325+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:29:43.325+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:29:43.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.094 seconds
+[2025-07-22T07:30:13.794+0000] {processor.py:161} INFO - Started process (PID=6891) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:30:13.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:30:13.798+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:30:13.797+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:30:13.841+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:30:13.882+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:30:13.881+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:30:13.897+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:30:13.897+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:30:13.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.140 seconds
+[2025-07-22T07:30:44.889+0000] {processor.py:161} INFO - Started process (PID=6947) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:30:44.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:30:44.896+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:30:44.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:30:44.926+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:30:44.953+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:30:44.952+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:30:45.031+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:30:45.030+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:30:45.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.187 seconds
+[2025-07-22T07:31:15.885+0000] {processor.py:161} INFO - Started process (PID=7003) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:31:15.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:31:15.890+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:31:15.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:31:15.913+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:31:15.948+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:31:15.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:31:15.971+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:31:15.970+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:31:16.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.122 seconds
+[2025-07-22T07:31:46.589+0000] {processor.py:161} INFO - Started process (PID=7059) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:31:46.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:31:46.592+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:31:46.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:31:46.610+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:31:46.632+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:31:46.632+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:31:46.649+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:31:46.648+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:31:46.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.096 seconds
+[2025-07-22T07:32:17.269+0000] {processor.py:161} INFO - Started process (PID=7115) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:32:17.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:32:17.272+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:32:17.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:32:17.291+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:32:17.314+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:32:17.313+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:32:17.327+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:32:17.327+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:32:17.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.097 seconds
+[2025-07-22T07:32:48.077+0000] {processor.py:161} INFO - Started process (PID=7171) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:32:48.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:32:48.080+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:32:48.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:32:48.097+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:32:48.119+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:32:48.119+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:32:48.129+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:32:48.128+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:32:48.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.086 seconds
+[2025-07-22T07:33:18.802+0000] {processor.py:161} INFO - Started process (PID=7227) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:33:18.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:33:18.808+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:33:18.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:33:18.834+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:33:18.867+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:33:18.867+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:33:18.884+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:33:18.884+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:33:18.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.126 seconds
+[2025-07-22T07:33:49.421+0000] {processor.py:161} INFO - Started process (PID=7283) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:33:49.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:33:49.427+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:33:49.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:33:49.453+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:33:49.483+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:33:49.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:33:49.503+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:33:49.502+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:33:49.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.122 seconds
+[2025-07-22T07:34:19.750+0000] {processor.py:161} INFO - Started process (PID=7339) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:34:19.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:34:19.754+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:34:19.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:34:19.772+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:34:19.790+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:34:19.790+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:34:19.809+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:34:19.809+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:34:19.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.088 seconds
+[2025-07-22T07:34:50.557+0000] {processor.py:161} INFO - Started process (PID=7395) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:34:50.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:34:50.561+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:34:50.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:34:50.576+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:34:50.606+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:34:50.605+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:34:50.622+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:34:50.621+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:34:50.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.101 seconds
+[2025-07-22T07:35:21.041+0000] {processor.py:161} INFO - Started process (PID=7451) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:35:21.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:35:21.045+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:35:21.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:35:21.060+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:35:21.084+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:35:21.084+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:35:21.096+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:35:21.096+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:35:21.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.087 seconds
+[2025-07-22T07:35:51.770+0000] {processor.py:161} INFO - Started process (PID=7507) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:35:51.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:35:51.773+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:35:51.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:35:51.796+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:35:51.820+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:35:51.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:35:51.835+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:35:51.834+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:35:51.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.099 seconds
+[2025-07-22T07:36:22.351+0000] {processor.py:161} INFO - Started process (PID=7563) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:36:22.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:36:22.354+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:36:22.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:36:22.383+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:36:22.410+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:36:22.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:36:22.421+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:36:22.421+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:36:22.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.105 seconds
+[2025-07-22T07:36:53.121+0000] {processor.py:161} INFO - Started process (PID=7619) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:36:53.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:36:53.124+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:36:53.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:36:53.141+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:36:53.169+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:36:53.169+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:36:53.180+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:36:53.180+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:36:53.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.095 seconds
+[2025-07-22T07:37:23.717+0000] {processor.py:161} INFO - Started process (PID=7675) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:37:23.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:37:23.721+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:37:23.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:37:23.736+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:37:23.769+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:37:23.769+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:37:23.785+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:37:23.784+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:37:23.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.102 seconds
+[2025-07-22T07:37:54.290+0000] {processor.py:161} INFO - Started process (PID=7732) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:37:54.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:37:54.294+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:37:54.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:37:54.313+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:37:54.336+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:37:54.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:37:54.352+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:37:54.352+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:37:54.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.093 seconds
+[2025-07-22T07:38:24.998+0000] {processor.py:161} INFO - Started process (PID=7788) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:38:25.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:38:25.003+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:38:25.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:38:25.037+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:38:25.078+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:38:25.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:38:25.103+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:38:25.103+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:38:25.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.150 seconds
+[2025-07-22T07:38:55.287+0000] {processor.py:161} INFO - Started process (PID=7845) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:38:55.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:38:55.290+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:38:55.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:38:55.316+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:38:55.337+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:38:55.336+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:38:55.353+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:38:55.353+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:38:55.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.094 seconds
+[2025-07-22T07:39:25.469+0000] {processor.py:161} INFO - Started process (PID=7901) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:39:25.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:39:25.472+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:39:25.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:39:25.495+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:39:25.520+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:39:25.519+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:39:25.530+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:39:25.530+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:39:25.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.093 seconds
+[2025-07-22T07:39:55.881+0000] {processor.py:161} INFO - Started process (PID=7957) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:39:55.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:39:55.884+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:39:55.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:39:55.901+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:39:55.924+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:39:55.924+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:39:55.938+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:39:55.937+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:39:55.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.088 seconds
+[2025-07-22T07:40:26.175+0000] {processor.py:161} INFO - Started process (PID=8014) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:40:26.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:40:26.181+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:40:26.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:40:26.197+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:40:26.225+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:40:26.224+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:40:26.235+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:40:26.234+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:40:26.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.097 seconds
+[2025-07-22T07:40:56.423+0000] {processor.py:161} INFO - Started process (PID=8070) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:40:56.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:40:56.429+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:40:56.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:40:56.449+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:40:56.471+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:40:56.471+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:40:56.489+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:40:56.489+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:40:56.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.109 seconds
+[2025-07-22T07:41:26.740+0000] {processor.py:161} INFO - Started process (PID=8126) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:41:26.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:41:26.752+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:41:26.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:41:26.784+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:41:26.826+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:41:26.826+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:41:26.845+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:41:26.845+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:41:26.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.161 seconds
+[2025-07-22T07:41:57.100+0000] {processor.py:161} INFO - Started process (PID=8182) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:41:57.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:41:57.106+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:41:57.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:41:57.122+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:41:57.151+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:41:57.151+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:41:57.164+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:41:57.164+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:41:57.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.096 seconds
+[2025-07-22T07:42:27.304+0000] {processor.py:161} INFO - Started process (PID=8238) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:42:27.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:42:27.308+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:42:27.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:42:27.324+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:42:27.347+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:42:27.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:42:27.361+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:42:27.361+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:42:27.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.091 seconds
+[2025-07-22T07:42:57.458+0000] {processor.py:161} INFO - Started process (PID=8295) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:42:57.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:42:57.462+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:42:57.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:42:57.488+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:42:57.519+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:42:57.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:42:57.529+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:42:57.529+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:42:57.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.102 seconds
+[2025-07-22T07:43:27.906+0000] {processor.py:161} INFO - Started process (PID=8351) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:43:27.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:43:27.914+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:43:27.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:43:27.933+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:43:27.963+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:43:27.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:43:27.982+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:43:27.982+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:43:28.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.116 seconds
+[2025-07-22T07:43:58.196+0000] {processor.py:161} INFO - Started process (PID=8407) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:43:58.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:43:58.201+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:43:58.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:43:58.223+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:43:58.252+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:43:58.252+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:43:58.268+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:43:58.268+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:43:58.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.106 seconds
+[2025-07-22T07:44:28.707+0000] {processor.py:161} INFO - Started process (PID=8463) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:44:28.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:44:28.710+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:44:28.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:44:28.726+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:44:28.750+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:44:28.749+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:44:28.764+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:44:28.763+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:44:28.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.187 seconds
+[2025-07-22T07:44:59.015+0000] {processor.py:161} INFO - Started process (PID=8519) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:44:59.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:44:59.019+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:44:59.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:44:59.034+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:44:59.062+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:44:59.062+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:44:59.074+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:44:59.074+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:44:59.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.092 seconds
+[2025-07-22T07:45:29.201+0000] {processor.py:161} INFO - Started process (PID=8575) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:45:29.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:45:29.206+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:45:29.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:45:29.223+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:45:29.250+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:45:29.250+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:45:29.264+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:45:29.264+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:45:29.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.092 seconds
+[2025-07-22T07:45:59.545+0000] {processor.py:161} INFO - Started process (PID=8631) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:45:59.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:45:59.548+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:45:59.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:45:59.570+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:45:59.601+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:45:59.601+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:45:59.621+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:45:59.620+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:45:59.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.113 seconds
+[2025-07-22T07:46:29.824+0000] {processor.py:161} INFO - Started process (PID=8687) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:46:29.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:46:29.829+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:46:29.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:46:29.857+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:46:29.891+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:46:29.890+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:46:29.910+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:46:29.910+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:46:29.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.122 seconds
+[2025-07-22T07:47:00.327+0000] {processor.py:161} INFO - Started process (PID=8743) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:47:00.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:47:00.330+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:47:00.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:47:00.354+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:47:00.377+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:47:00.377+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:47:00.393+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:47:00.393+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:47:00.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.098 seconds
+[2025-07-22T07:47:30.495+0000] {processor.py:161} INFO - Started process (PID=8800) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:47:30.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:47:30.499+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:47:30.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:47:30.521+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:47:30.549+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:47:30.548+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:47:30.559+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:47:30.559+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:47:30.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.104 seconds
+[2025-07-22T07:48:01.098+0000] {processor.py:161} INFO - Started process (PID=8856) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:48:01.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:48:01.104+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:48:01.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:48:01.122+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:48:01.149+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:48:01.149+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:48:01.164+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:48:01.163+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:48:01.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.099 seconds
+[2025-07-22T07:48:31.550+0000] {processor.py:161} INFO - Started process (PID=8910) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:48:31.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:48:31.555+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:48:31.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:48:31.574+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:48:31.601+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:48:31.600+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:48:31.612+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:48:31.612+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:48:31.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.098 seconds
+[2025-07-22T07:49:02.366+0000] {processor.py:161} INFO - Started process (PID=8966) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:49:02.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:49:02.373+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:49:02.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:49:02.403+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:49:02.441+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:49:02.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:49:02.462+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:49:02.461+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:49:02.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.149 seconds
+[2025-07-22T07:49:32.848+0000] {processor.py:161} INFO - Started process (PID=9028) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:49:32.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:49:32.853+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:49:32.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:49:32.887+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:49:32.925+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:49:32.925+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:49:32.948+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:49:32.948+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:49:32.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.141 seconds
+[2025-07-22T07:50:03.421+0000] {processor.py:161} INFO - Started process (PID=9084) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:50:03.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:50:03.424+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:50:03.424+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:50:03.442+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:50:03.478+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:50:03.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:50:03.494+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:50:03.494+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:50:03.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.109 seconds
+[2025-07-22T07:50:33.575+0000] {processor.py:161} INFO - Started process (PID=9140) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:50:33.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:50:33.580+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:50:33.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:50:33.600+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:50:33.627+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:50:33.627+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:50:33.638+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:50:33.638+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:50:33.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.098 seconds
+[2025-07-22T07:51:04.136+0000] {processor.py:161} INFO - Started process (PID=9196) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:51:04.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:51:04.140+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:51:04.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:51:04.243+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:51:04.271+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:51:04.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:51:04.283+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:51:04.282+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:51:04.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.243 seconds
+[2025-07-22T07:51:34.638+0000] {processor.py:161} INFO - Started process (PID=9252) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:51:34.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:51:34.642+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:51:34.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:51:34.661+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:51:34.682+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:51:34.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:51:34.699+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:51:34.699+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:51:34.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.098 seconds
+[2025-07-22T07:53:17.611+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:53:17.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:53:17.618+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:53:17.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:53:17.664+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:53:18.174+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:53:18.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:53:18.202+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:53:18.201+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:53:18.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.660 seconds
+[2025-07-22T07:53:48.831+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:53:48.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:53:48.834+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:53:48.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:53:48.869+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:53:48.940+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:53:48.940+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:53:48.953+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:53:48.953+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:53:49.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.179 seconds
+[2025-07-22T07:54:19.546+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:54:19.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:54:19.549+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:54:19.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:54:19.576+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:54:19.605+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:54:19.604+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:54:19.617+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:54:19.617+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:54:19.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.109 seconds
+[2025-07-22T07:54:49.734+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:54:49.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:54:49.745+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:54:49.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:54:49.780+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:54:49.831+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:54:49.831+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:54:49.859+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:54:49.859+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:54:49.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.173 seconds
+[2025-07-22T07:55:20.038+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T07:55:20.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T07:55:20.041+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:55:20.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:55:20.062+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T07:55:20.090+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:55:20.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T07:55:20.108+0000] {logging_mixin.py:188} INFO - [2025-07-22T07:55:20.108+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T07:55:20.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.108 seconds
+[2025-07-22T08:25:00.289+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T08:25:00.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T08:25:00.297+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:25:00.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:25:00.362+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:25:01.090+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:25:01.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T08:25:01.127+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:25:01.126+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T08:25:01.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.922 seconds
+[2025-07-22T08:25:31.644+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T08:25:31.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T08:25:31.648+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:25:31.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:25:31.866+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:25:31.894+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:25:31.894+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T08:25:31.988+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:25:31.988+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T08:25:32.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.763 seconds
+[2025-07-22T08:26:05.702+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T08:26:05.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T08:26:05.715+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:26:05.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:26:05.776+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:26:05.822+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:26:05.822+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T08:26:05.844+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:26:05.843+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T08:26:05.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.197 seconds
+[2025-07-22T08:26:36.456+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T08:26:36.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T08:26:36.461+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:26:36.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:26:36.491+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:26:36.522+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:26:36.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T08:26:36.536+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:26:36.535+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T08:26:36.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.130 seconds
+[2025-07-22T08:27:06.653+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/number_dag.py
+[2025-07-22T08:27:06.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/number_dag.py for tasks to queue
+[2025-07-22T08:27:06.659+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:27:06.659+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:27:06.688+0000] {processor.py:840} INFO - DAG(s) 'branching_primes_dag' retrieved from /opt/airflow/dags/number_dag.py
+[2025-07-22T08:27:06.722+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:27:06.721+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-22T08:27:06.740+0000] {logging_mixin.py:188} INFO - [2025-07-22T08:27:06.740+0000] {dag.py:3823} INFO - Setting next_dagrun for branching_primes_dag to None, run_after=None
+[2025-07-22T08:27:06.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/number_dag.py took 0.123 seconds

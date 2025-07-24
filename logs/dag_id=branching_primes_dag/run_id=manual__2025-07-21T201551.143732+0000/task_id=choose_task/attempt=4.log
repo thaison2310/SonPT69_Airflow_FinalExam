@@ -1,0 +1,17 @@
+[2025-07-21T20:20:16.964+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_primes_dag.choose_task manual__2025-07-21T20:15:51.143732+00:00 [queued]>
+[2025-07-21T20:20:16.976+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_primes_dag.choose_task manual__2025-07-21T20:15:51.143732+00:00 [queued]>
+[2025-07-21T20:20:16.977+0000] {taskinstance.py:2170} INFO - Starting attempt 4 of 4
+[2025-07-21T20:20:16.988+0000] {taskinstance.py:2191} INFO - Executing <Task(BranchPythonOperator): choose_task> on 2025-07-21 20:15:51.143732+00:00
+[2025-07-21T20:20:16.993+0000] {standard_task_runner.py:60} INFO - Started process 129 to run task
+[2025-07-21T20:20:16.997+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'branching_primes_dag', 'choose_task', 'manual__2025-07-21T20:15:51.143732+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/number_dag.py', '--cfg-path', '/tmp/tmpnh0z0k74']
+[2025-07-21T20:20:17.000+0000] {standard_task_runner.py:88} INFO - Job 61: Subtask choose_task
+[2025-07-21T20:20:17.067+0000] {task_command.py:423} INFO - Running <TaskInstance: branching_primes_dag.choose_task manual__2025-07-21T20:15:51.143732+00:00 [running]> on host ffddf4fc22f7
+[2025-07-21T20:20:17.135+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='branching_primes_dag' AIRFLOW_CTX_TASK_ID='choose_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-21T20:15:51.143732+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-21T20:15:51.143732+00:00'
+[2025-07-21T20:20:17.138+0000] {logging_mixin.py:188} INFO - 👀 number from dag_run.conf: 0
+[2025-07-21T20:20:17.138+0000] {python.py:201} INFO - Done. Returned value was: print_number_bash
+[2025-07-21T20:20:17.138+0000] {branch.py:35} INFO - Branch into print_number_bash
+[2025-07-21T20:20:17.139+0000] {skipmixin.py:178} INFO - Following branch print_number_bash
+[2025-07-21T20:20:17.158+0000] {skipmixin.py:244} INFO - Skipping tasks [('print_primes_python', -1)]
+[2025-07-21T20:20:17.206+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=branching_primes_dag, task_id=choose_task, execution_date=20250721T201551, start_date=20250721T202016, end_date=20250721T202017
+[2025-07-21T20:20:17.250+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-21T20:20:17.275+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

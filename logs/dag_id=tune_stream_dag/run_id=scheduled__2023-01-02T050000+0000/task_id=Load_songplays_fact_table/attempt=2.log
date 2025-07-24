@@ -1,0 +1,3 @@
+[2025-07-24T13:57:32.091+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-02T05:00:00+00:00 [queued]>
+[2025-07-24T13:57:32.100+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_songplays_fact_table scheduled__2023-01-02T05:00:00+00:00 [queued]>
+[2025-07-24T13:57:32.101+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4

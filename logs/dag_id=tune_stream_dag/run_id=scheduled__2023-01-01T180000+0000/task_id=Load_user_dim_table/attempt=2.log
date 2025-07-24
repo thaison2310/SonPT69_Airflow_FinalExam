@@ -1,0 +1,43 @@
+[2025-07-24T16:42:00.772+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_user_dim_table scheduled__2023-01-01T18:00:00+00:00 [queued]>
+[2025-07-24T16:42:00.857+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_user_dim_table scheduled__2023-01-01T18:00:00+00:00 [queued]>
+[2025-07-24T16:42:00.864+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2025-07-24T16:42:00.933+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_user_dim_table> on 2023-01-01 18:00:00+00:00
+[2025-07-24T16:42:01.007+0000] {standard_task_runner.py:60} INFO - Started process 131 to run task
+[2025-07-24T16:42:01.126+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_user_dim_table', 'scheduled__2023-01-01T18:00:00+00:00', '--job-id', '1687', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpnew8u32o']
+[2025-07-24T16:42:01.201+0000] {standard_task_runner.py:88} INFO - Job 1687: Subtask Load_user_dim_table
+[2025-07-24T16:42:01.919+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_user_dim_table scheduled__2023-01-01T18:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T16:42:02.630+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_user_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T18:00:00+00:00'
+[2025-07-24T16:42:02.743+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_pipeline.py", line 179, in <lambda>
+    python_callable=lambda: load_table(SqlQueries.user_table_insert, 'users'),
+  File "/opt/airflow/dags/etl_pipeline.py", line 132, in load_table
+    cur.execute(f"INSERT INTO {table} {query}")
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (userid)=(88) already exists.
+
+[2025-07-24T16:42:02.878+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tune_stream_dag, task_id=Load_user_dim_table, execution_date=20230101T180000, start_date=20250724T164200, end_date=20250724T164202
+[2025-07-24T16:42:02.931+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1687 for task Load_user_dim_table (duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (userid)=(88) already exists.
+; 131)
+[2025-07-24T16:42:02.978+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-24T16:42:03.061+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T17:18:22.921+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_user_dim_table scheduled__2023-01-01T18:00:00+00:00 [queued]>
+[2025-07-24T17:18:22.945+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_user_dim_table scheduled__2023-01-01T18:00:00+00:00 [queued]>
+[2025-07-24T17:18:22.946+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2025-07-24T17:18:22.967+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_user_dim_table> on 2023-01-01 18:00:00+00:00
+[2025-07-24T17:18:22.981+0000] {standard_task_runner.py:60} INFO - Started process 1601 to run task
+[2025-07-24T17:18:22.986+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_user_dim_table', 'scheduled__2023-01-01T18:00:00+00:00', '--job-id', '2118', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpbm0te1pk']
+[2025-07-24T17:18:22.993+0000] {standard_task_runner.py:88} INFO - Job 2118: Subtask Load_user_dim_table
+[2025-07-24T17:18:23.092+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_user_dim_table scheduled__2023-01-01T18:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T17:18:23.206+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_user_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T18:00:00+00:00'
+[2025-07-24T17:18:23.234+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T17:18:23.248+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Load_user_dim_table, execution_date=20230101T180000, start_date=20250724T171822, end_date=20250724T171823
+[2025-07-24T17:18:23.282+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T17:18:23.324+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

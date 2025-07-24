@@ -52,4 +52,3 @@ After loading, the pipeline checks:
 Failures are logged and halt the DAG automatically
 
 
-"# SonPT69_Airflow_FinalTest" 

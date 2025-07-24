@@ -1,0 +1,69 @@
+[2025-07-22T10:04:28.361+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-22T10:04:28.379+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-22T10:04:28.463+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-22T10:04:28.692+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_events> on 2023-01-01 10:00:00+00:00
+[2025-07-22T10:04:28.897+0000] {standard_task_runner.py:60} INFO - Started process 339 to run task
+[2025-07-22T10:04:28.902+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_events', 'scheduled__2023-01-01T10:00:00+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpqy40tys8']
+[2025-07-22T10:04:28.919+0000] {standard_task_runner.py:88} INFO - Job 126: Subtask Stage_events
+[2025-07-22T10:04:40.912+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [running]> on host a2a13a541787
+[2025-07-22T10:05:00.628+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_events' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T10:00:00+00:00'
+[2025-07-22T10:05:00.975+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_pipeline.py", line 77, in stage_events
+    data = json.load(f)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 457)
+[2025-07-22T10:05:01.194+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=tune_stream_dag, task_id=Stage_events, execution_date=20230101T100000, start_date=20250722T100428, end_date=20250722T100501
+[2025-07-22T10:05:01.264+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 126 for task Stage_events (Extra data: line 2 column 1 (char 457); 339)
+[2025-07-22T10:05:01.357+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-22T10:05:01.517+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T15:31:10.054+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-24T15:31:10.066+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-24T15:31:10.067+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T15:31:10.097+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_events> on 2023-01-01 10:00:00+00:00
+[2025-07-24T15:31:10.108+0000] {standard_task_runner.py:60} INFO - Started process 210 to run task
+[2025-07-24T15:31:10.117+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_events', 'scheduled__2023-01-01T10:00:00+00:00', '--job-id', '986', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmp3sb8lr3x']
+[2025-07-24T15:31:10.122+0000] {standard_task_runner.py:88} INFO - Job 986: Subtask Stage_events
+[2025-07-24T15:31:10.234+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [running]> on host c53547d84df1
+[2025-07-24T15:31:10.477+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_events' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T10:00:00+00:00'
+[2025-07-24T15:33:30.202+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T15:33:30.925+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Stage_events, execution_date=20230101T100000, start_date=20250724T153110, end_date=20250724T153330
+[2025-07-24T15:33:31.019+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T15:33:31.118+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T16:14:33.365+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-24T16:14:33.413+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-24T16:14:33.414+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T16:14:33.882+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_events> on 2023-01-01 10:00:00+00:00
+[2025-07-24T16:14:34.111+0000] {standard_task_runner.py:60} INFO - Started process 222 to run task
+[2025-07-24T16:14:34.072+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_events', 'scheduled__2023-01-01T10:00:00+00:00', '--job-id', '1378', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmp8bonihfi']
+[2025-07-24T16:14:34.295+0000] {standard_task_runner.py:88} INFO - Job 1378: Subtask Stage_events
+[2025-07-24T16:14:35.652+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [running]> on host c53547d84df1
+[2025-07-24T16:14:36.562+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_events' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T10:00:00+00:00'
+[2025-07-24T16:16:08.018+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T16:16:08.492+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Stage_events, execution_date=20230101T100000, start_date=20250724T161433, end_date=20250724T161608
+[2025-07-24T16:16:11.146+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T16:16:11.320+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T16:55:10.975+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-24T16:55:10.994+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [queued]>
+[2025-07-24T16:55:10.994+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T16:55:11.071+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_events> on 2023-01-01 10:00:00+00:00
+[2025-07-24T16:55:11.090+0000] {standard_task_runner.py:60} INFO - Started process 226 to run task
+[2025-07-24T16:55:11.106+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_events', 'scheduled__2023-01-01T10:00:00+00:00', '--job-id', '1773', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpddgv92zt']
+[2025-07-24T16:55:11.123+0000] {standard_task_runner.py:88} INFO - Job 1773: Subtask Stage_events
+[2025-07-24T16:55:11.387+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_events scheduled__2023-01-01T10:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T16:55:11.614+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_events' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T10:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T10:00:00+00:00'
+[2025-07-24T16:55:49.072+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T16:55:49.118+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Stage_events, execution_date=20230101T100000, start_date=20250724T165510, end_date=20250724T165549
+[2025-07-24T16:55:49.879+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T16:55:49.935+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

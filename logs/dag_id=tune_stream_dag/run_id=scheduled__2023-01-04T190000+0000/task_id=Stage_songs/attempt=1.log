@@ -1,0 +1,26 @@
+[2025-07-24T15:05:34.022+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_songs scheduled__2023-01-04T19:00:00+00:00 [queued]>
+[2025-07-24T15:05:34.038+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_songs scheduled__2023-01-04T19:00:00+00:00 [queued]>
+[2025-07-24T15:05:34.039+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T15:05:34.058+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_songs> on 2023-01-04 19:00:00+00:00
+[2025-07-24T15:05:34.067+0000] {standard_task_runner.py:60} INFO - Started process 279 to run task
+[2025-07-24T15:05:34.074+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_songs', 'scheduled__2023-01-04T19:00:00+00:00', '--job-id', '776', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpt5xfrzyy']
+[2025-07-24T15:05:34.080+0000] {standard_task_runner.py:88} INFO - Job 776: Subtask Stage_songs
+[2025-07-24T15:05:34.314+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_songs scheduled__2023-01-04T19:00:00+00:00 [running]> on host c53547d84df1
+[2025-07-24T15:05:34.536+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_songs' AIRFLOW_CTX_EXECUTION_DATE='2023-01-04T19:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-04T19:00:00+00:00'
+[2025-07-24T15:05:37.419+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T15:05:37.440+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Stage_songs, execution_date=20230104T190000, start_date=20250724T150534, end_date=20250724T150537
+[2025-07-24T15:05:37.585+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T15:05:38.604+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T17:31:39.034+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_songs scheduled__2023-01-04T19:00:00+00:00 [queued]>
+[2025-07-24T17:31:39.052+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Stage_songs scheduled__2023-01-04T19:00:00+00:00 [queued]>
+[2025-07-24T17:31:39.052+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T17:31:39.732+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Stage_songs> on 2023-01-04 19:00:00+00:00
+[2025-07-24T17:31:39.751+0000] {standard_task_runner.py:60} INFO - Started process 3190 to run task
+[2025-07-24T17:31:39.860+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Stage_songs', 'scheduled__2023-01-04T19:00:00+00:00', '--job-id', '2596', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpy914kzfe']
+[2025-07-24T17:31:39.870+0000] {standard_task_runner.py:88} INFO - Job 2596: Subtask Stage_songs
+[2025-07-24T17:31:41.399+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Stage_songs scheduled__2023-01-04T19:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T17:31:42.560+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Stage_songs' AIRFLOW_CTX_EXECUTION_DATE='2023-01-04T19:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-04T19:00:00+00:00'
+[2025-07-24T17:31:54.212+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T17:31:54.310+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Stage_songs, execution_date=20230104T190000, start_date=20250724T173139, end_date=20250724T173154
+[2025-07-24T17:31:54.405+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T17:31:54.498+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

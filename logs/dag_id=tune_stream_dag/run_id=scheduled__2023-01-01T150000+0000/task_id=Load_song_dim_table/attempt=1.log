@@ -1,0 +1,39 @@
+[2025-07-24T15:49:20.515+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [queued]>
+[2025-07-24T15:49:20.530+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [queued]>
+[2025-07-24T15:49:20.531+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T15:49:20.550+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_song_dim_table> on 2023-01-01 15:00:00+00:00
+[2025-07-24T15:49:20.559+0000] {standard_task_runner.py:60} INFO - Started process 950 to run task
+[2025-07-24T15:49:20.563+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_song_dim_table', 'scheduled__2023-01-01T15:00:00+00:00', '--job-id', '1149', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmphh2ib8k0']
+[2025-07-24T15:49:20.566+0000] {standard_task_runner.py:88} INFO - Job 1149: Subtask Load_song_dim_table
+[2025-07-24T15:49:20.656+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [running]> on host c53547d84df1
+[2025-07-24T15:49:20.745+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_song_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T15:00:00+00:00'
+[2025-07-24T15:49:20.756+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T15:49:20.768+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Load_song_dim_table, execution_date=20230101T150000, start_date=20250724T154920, end_date=20250724T154920
+[2025-07-24T15:49:20.856+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T15:49:20.883+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T16:33:55.265+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [queued]>
+[2025-07-24T16:33:55.300+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [queued]>
+[2025-07-24T16:33:55.306+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T16:33:55.384+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_song_dim_table> on 2023-01-01 15:00:00+00:00
+[2025-07-24T16:33:55.431+0000] {standard_task_runner.py:60} INFO - Started process 1136 to run task
+[2025-07-24T16:33:55.472+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_song_dim_table', 'scheduled__2023-01-01T15:00:00+00:00', '--job-id', '1591', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpaff1887c']
+[2025-07-24T16:33:55.524+0000] {standard_task_runner.py:88} INFO - Job 1591: Subtask Load_song_dim_table
+[2025-07-24T16:33:56.052+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [running]> on host c53547d84df1
+[2025-07-24T16:33:56.355+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_song_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T15:00:00+00:00'
+[2025-07-24T16:33:58.809+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T16:33:58.828+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Load_song_dim_table, execution_date=20230101T150000, start_date=20250724T163355, end_date=20250724T163358
+[2025-07-24T16:33:59.000+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T16:33:59.044+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-24T17:12:16.121+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [queued]>
+[2025-07-24T17:12:16.137+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [queued]>
+[2025-07-24T17:12:16.138+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2025-07-24T17:12:16.154+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): Load_song_dim_table> on 2023-01-01 15:00:00+00:00
+[2025-07-24T17:12:16.167+0000] {standard_task_runner.py:60} INFO - Started process 979 to run task
+[2025-07-24T17:12:16.171+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'tune_stream_dag', 'Load_song_dim_table', 'scheduled__2023-01-01T15:00:00+00:00', '--job-id', '1942', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline.py', '--cfg-path', '/tmp/tmpsoguwgm4']
+[2025-07-24T17:12:16.175+0000] {standard_task_runner.py:88} INFO - Job 1942: Subtask Load_song_dim_table
+[2025-07-24T17:12:16.277+0000] {task_command.py:423} INFO - Running <TaskInstance: tune_stream_dag.Load_song_dim_table scheduled__2023-01-01T15:00:00+00:00 [running]> on host 5def55d2a1b5
+[2025-07-24T17:12:16.373+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='genz-legend' AIRFLOW_CTX_DAG_ID='tune_stream_dag' AIRFLOW_CTX_TASK_ID='Load_song_dim_table' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T15:00:00+00:00'
+[2025-07-24T17:12:16.406+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-24T17:12:16.426+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=tune_stream_dag, task_id=Load_song_dim_table, execution_date=20230101T150000, start_date=20250724T171216, end_date=20250724T171216
+[2025-07-24T17:12:16.464+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-24T17:12:16.659+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
