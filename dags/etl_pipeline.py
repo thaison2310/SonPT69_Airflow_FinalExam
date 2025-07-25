@@ -121,10 +121,6 @@ def stage_events():
     cur.close()
     conn.close()
 
-def extract_table_name(query):
-    match = re.search(r'INSERT\s+INTO\s+(\w+)', query, re.IGNORECASE)
-    return match.group(1) if match else None
-
 def load_table(query, table):
     conn = get_postgres_conn()
     cur = conn.cursor()
